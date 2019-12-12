@@ -1,18 +1,18 @@
-const mongoose = require('mongoose');
+// const mongoose = require('mongoose');
 
-mongoose.Promise = global.Promise;
+// mongoose.Promise = global.Promise;
 
-mongoose.connect('mongodb://localhost/renttherunwayproducts', { useMongoClient: true });
+// mongoose.connect('mongodb://localhost/renttherunwayproducts', { useMongoClient: true });
 
-const dressSchema = mongoose.Schema({
-    product_id: Number,
-    images: [String],
-    reviewImages:[String]
-});
+// const dressSchema = mongoose.Schema({
+//     product_id: Number,
+//     images: [String],
+//     reviewImages:[String]
+// });
 
-const Dresses = mongoose.model('Dresses', dressSchema);
+// const Dresses = mongoose.model('Dresses', dressSchema);
 
-module.exports = Dresses;
+// module.exports = Dresses;
 
 
 
