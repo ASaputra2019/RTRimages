@@ -1,0 +1,14 @@
+.container {
+    text-align: center;
+    margin-left: 110px;
+    overflow: hidden;
+    max-height: 636px;
+    max-width: 424px;
+    display: block;
+}
+
+.box {
+    margin: 0;
+    padding: 0;
+    display: block;
+}

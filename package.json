@@ -1,0 +1,34 @@
+{
+  "name": "hrla28-fec",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "seed": "node ./db/seed.js",
+    "build": "webpack -d --watch",
+    "start": "nodemon server/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "7.4.0",
+    "@babel/preset-env": "7.4.2",
+    "@babel/preset-react": "7.0.0",
+    "axios": "^0.18.0",
+    "babel-loader": "^8.0.5",
+    "body-parser": "^1.17.0",
+    "css-loader": "2.1.1",
+    "express": "^4.15.0",
+    "mongoose": "^4.9.6",
+    "nodemon": "^1.18.10",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-skylight": "^0.5.1",
+    "request": "^2.81.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.0"
+  }
+}

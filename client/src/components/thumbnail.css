@@ -1,0 +1,52 @@
+.container {
+    position: absolute;
+}
+
+.review {
+    max-width: 82px;
+    cursor: pointer;
+}
+
+.thumbPrev {
+    padding: 20px;
+    cursor: pointer;
+}
+
+.thumbNext {
+    padding: 10px 20px 40px;
+    cursor: pointer;
+}
+
+.arrowNext {
+    width: 12px;
+    height: 12px;
+    border-top: 1px solid #333333;
+    border-right: 1px solid #333333;
+    border-left: 0;
+    border-bottom: 0;
+    opacity: 1;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+    display: block;
+    margin: 0 auto;
+}
+
+.arrowPrev {
+    width: 12px;
+    height: 12px;
+    border-top: 1px solid #333333;
+    border-right: 1px solid #333333;
+    border-left: 0;
+    border-bottom: 0;
+    opacity: 1;
+    -webkit-transform: rotate(315deg);
+    -moz-transform: rotate(315deg);
+    -ms-transform: rotate(315deg);
+    -o-transform: rotate(315deg);
+    transform: rotate(315deg);
+    display: block;
+    margin: 0 auto;
+}

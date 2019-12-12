@@ -1,0 +1,25 @@
+.images {
+    float: left;
+    width: auto;
+}
+
+.pic {
+    max-height: 800px; 
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+
+    position: fixed;
+    top: 0%;
+    left: 25%;
+    margin-top: -150px;
+    margin-left: -55%;
+    border-radius: 2px;
+    z-index: 100;
+    padding: 15px;
+    transform: scale(1);
+    transition-property: transform;
+    transition-timing-function: ease;
+    transition-duration: 200ms;
+    display: block;
+}
